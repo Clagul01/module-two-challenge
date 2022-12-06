@@ -68,13 +68,13 @@ h2{
 .gallery__item{
     background-color: #588157;
     padding: 10px;
+    position: relative;
 }
 .gallery__image{
     width: 100%;
     height: 100%;
     object-fit: cover;
     opacity: 0.33;
-    position: relative;
 }
 .gallery__item--1{
     grid-column-start: 1;
@@ -108,11 +108,20 @@ h2{
 }
 .gallery__image--descriptor{
     position: absolute;
-    bottom: -5px;
+    bottom: 20px;
     margin-left: 10px;
     background-color: #588157;
     width: 150px;
     color: antiquewhite;
+}
+.gallery__smallimage--descriptor{
+    position: absolute;
+    bottom: 20px;
+    margin-left: 10px;
+    background-color: #588157;
+    width: 165px;
+    color: antiquewhite;
+    padding: 5px;
 }
 
 .gallery__image:hover{

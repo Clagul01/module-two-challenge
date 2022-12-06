@@ -38,3 +38,8 @@ a{
     height: 100px;
     background-color: #588157;
 }
+main{
+    display: grid;
+    grid-template-columns: 600px;
+    grid-template-rows: 200px 200px 200px;
+}

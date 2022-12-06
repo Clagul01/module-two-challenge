@@ -1,6 +1,9 @@
 :root{
 
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     width: 100vw;
     height: 100px;
@@ -22,6 +25,7 @@ ul{
 a{
     text-decoration: none;
     padding-right: 20px;
+    color: black;
 }
 .hero-banner{
     position: relative;
@@ -42,6 +46,7 @@ main{
     display: grid;
     grid-template-columns: 1268px;
     grid-template-rows: auto;
+    margin: 20px
 }
 .page-section{
     display: flex;
@@ -54,7 +59,11 @@ main{
 }
 h2{
     float: right;
-    padding-right: 10px;
+    padding-right: 50px;
+    color: aliceblue;
+}
+.page-section h2{
+    color: black;
 }
 .gallery{
     margin: 0;
@@ -63,11 +72,12 @@ h2{
     width: 968px;
     display: grid;
     grid-template-columns: repeat(4fr, 30px);
-    grid-template-rows: repeat(4fr, 30px);
+    grid-template-rows: repeat(4fr, 20px);
 }
 .gallery__item{
     background-color: #588157;
     padding: 10px;
+    margin: 20px;
     position: relative;
 }
 .gallery__image{

@@ -153,3 +153,75 @@ h2{
     transition: ease-in-out 0.2s;
     cursor: pointer;
 }
+@media only screen and (max-width: 768px){
+    *{
+        max-width: 100%;
+        height: auto;
+        text-align: left;
+        left: 0;
+    }
+    body{
+
+    }
+    h1{
+        width: 300px;
+    }
+    h2{
+        position: relative;
+        width: auto;
+        float: left;
+    }
+    .banner{
+        width: 100%;
+    }
+    nav{
+        width: auto;
+    }
+    .page-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-container{
+        width: 300px;
+        border-right: none;
+        border-bottom: #588157 solid;
+        margin-top: 30px;
+    }
+    nav ul{
+        display: none;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+    }
+    .about__me--content{
+        max-width: 100%;
+        left: 0;
+        position: relative;
+        text-align: left;
+        float: left;
+
+    }
+    #my_avatar{
+        max-width: 100%;
+        height: auto;
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+    }
+    .gallery__item{
+        width: auto;
+        padding: auto;
+    }
+    #section4{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact__links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

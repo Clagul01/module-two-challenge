@@ -13,7 +13,7 @@ header{
 }
 h1{
     width: 300px;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 ul{
     width: 900px;
@@ -26,6 +26,15 @@ a{
     text-decoration: none;
     padding-right: 20px;
     color: black;
+}
+.about__me--content{
+    margin-top: 130px;
+    margin-left: 4%;
+    text-align: center;
+}
+#avatar{
+    height: 100px;
+    padding-left: 10px;
 }
 .hero-banner{
     position: relative;
@@ -133,7 +142,14 @@ h2{
     color: antiquewhite;
     padding: 5px;
 }
-
+.contact__container{
+    justify-content: center;
+}
+.contact__links li{
+    margin-top: 20px;
+    bottom: 0;
+    margin-right: 70px;
+}
 .gallery__image:hover{
     opacity: 1;
     transition: ease-in-out 0.2s;

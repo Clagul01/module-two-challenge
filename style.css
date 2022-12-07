@@ -190,6 +190,10 @@ h2{
     nav ul{
         display: none;
     }
+    .subtitle{
+        width: 600px;
+        text-align: center;
+    }
     #about{
         display: flex;
         flex-direction: column;
@@ -200,6 +204,8 @@ h2{
         position: relative;
         text-align: left;
         float: left;
+        margin-top: 50px;
+        margin-left: 70px;
 
     }
     #my_avatar{

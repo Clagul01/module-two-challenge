@@ -1,4 +1,8 @@
-
+:root{
+    --green-color: #588157;
+    --white-color: antiquewhite;
+}
+/* scroll-behaviour smooth added to html element to allow smooth scrolling */
 html{
     scroll-behavior: smooth;
 }
@@ -49,7 +53,7 @@ a{
 .banner{
     width: 100vw;
     height: 100px;
-    background-color: #588157;
+    background-color: var(--green-color);
 }
 main{
     display: grid;
@@ -63,13 +67,13 @@ main{
 }
 .left-container{
     width: 300px;
-    border-right: #588157 solid;
+    border-right: var(--green-color) solid;
     margin-top: 30px;
 }
 h2{
     float: right;
     padding-right: 50px;
-    color: aliceblue;
+    color: var(--white-color);
 }
 .page-section h2{
     color: black;
@@ -84,7 +88,7 @@ h2{
     grid-template-rows: repeat(4fr, 20px);
 }
 .gallery-item{
-    background-color: #588157;
+    background-color: var(--green-color);
     padding: 10px;
     margin: 20px;
     position: relative;
@@ -129,17 +133,17 @@ h2{
     position: absolute;
     bottom: 20px;
     margin-left: 10px;
-    background-color: #588157;
+    background-color: var(--green-color);
     width: 150px;
-    color: antiquewhite;
+    color: var(--white-color);
 }
 .gallery-small-image-descriptor{
     position: absolute;
     bottom: 20px;
     margin-left: 10px;
-    background-color: #588157;
+    background-color: var(--green-color);
     width: 165px;
-    color: antiquewhite;
+    color: var(--white-color);
     padding: 5px;
 }
 .contact-container{
@@ -183,7 +187,7 @@ h2{
     .left-container{
         width: 300px;
         border-right: none;
-        border-bottom: #588157 solid;
+        border-bottom: var(--green-color) solid;
         margin-top: 30px;
     }
     nav ul{

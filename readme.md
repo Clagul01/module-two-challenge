@@ -8,7 +8,7 @@ This portfolio page was created to showcase my projects and skills as a student 
 The page provides a responsive layout which uses @media querie selectors so the information can be presented clearly on both phone and desktop.
 
 By completing this project, I have learned how to use CSS variables to relay CSS attributes easily, how to use both CSS grid and flex-box properties, 
-and how to make a visually appealing and well presented webpage. Dunamic elements such as smooth scrolling have also been incorporated into the page to give
+and how to make a visually appealing and well presented webpage. Dynamic elements such as smooth scrolling have also been incorporated into the page to give
 visitors more ease in finding the content they are wishing to see.
 
 ## Usage

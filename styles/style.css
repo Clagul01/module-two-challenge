@@ -228,42 +228,4 @@ h2{
         flex-direction: column;
         justify-content: space-between;
     }
-    /*
-    h2{
-
-    }
-    
-    nav{
-        width: auto;
-    }
-    
-    .left-container{
-        width: 300px;
-        border-right: none;
-        border-bottom: var(--green-color) solid;
-        margin-top: 30px;
-    }
-    
-    .subtitle{
-        width: 600px;
-        text-align: center;
-    }
-    #about{
-        display: flex;
-        flex-direction: column;
-    }
-    .about-me-content{
-        max-width: 100%;
-        left: 0;
-        position: relative;
-        text-align: left;
-        float: left;
-        margin-top: 50px;
-        margin-left: 70px;
-
-    }
-    
-    
-    
-     */
 }

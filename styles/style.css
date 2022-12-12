@@ -191,8 +191,8 @@ h2{
         padding: 5%;
     }
     #my-avatar{
-        max-width: auto;
-        max-height: auto;
+        width: auto;
+        height: auto;
     }
     .page-wrapper {
         width: 90%;

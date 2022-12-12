@@ -29,6 +29,9 @@ a{
     padding-right: 20px;
     color: black;
 }
+.page-section{
+    display: flex; 
+}
 .about-me-content{
     margin-top: 130px;
     margin-left: 4%;
@@ -37,7 +40,7 @@ a{
 #my-avatar{
     max-height: 300px;
     max-width: 400px;
-    padding-left: 60px;
+    padding-left: 20px;
     border-radius: 70% 50% 30% 10%;
 }
 .hero-banner{
@@ -177,6 +180,10 @@ h2{
     .subtitle{
         width: 100%;
     }
+    .page-section #about{
+        flex-direction: column;
+        justify-content: center;
+    }
     .about-me-content{
         margin-top: 5px;
         margin-left: 0%;
@@ -184,25 +191,25 @@ h2{
         padding: 5%;
     }
     #my-avatar{
-        max-width: 100%;
-        height: auto;
-        padding: 5%;
+        max-width: auto;
+        max-height: auto;
     }
     .page-wrapper {
         width: 90%;
     }
-    
     .page-section{
         display: flex;
         flex-direction: column;
         width: 90%;
     }
+    .left-container{
+        border-right: none;
+        border-bottom: #588157 solid;
+    }
     h2{
         position: relative;
         width: auto;
         float: left;
-        border-right: none;
-        border-bottom: var(--green-color) solid;;
     }
     .gallery{
         display: flex;

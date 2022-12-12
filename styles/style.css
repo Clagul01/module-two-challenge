@@ -57,7 +57,7 @@ a{
 }
 main{
     display: grid;
-    grid-template-columns: 1268px;
+    grid-template-columns: 90%;
     grid-template-rows: auto;
     margin: 20px
 }
@@ -159,40 +159,84 @@ h2{
     transition: ease-in-out 0.2s;
     cursor: pointer;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 390px) and (max-width: 844px){
     *{
         max-width: 100%;
         height: auto;
-        text-align: left;
-        left: 0;
     }
     h1{
-        width: 300px;
+        width: 90%;
+        margin: auto;
+    } 
+    nav ul{
+        display: none;
+    }
+    .banner{
+        width: 100%;
+    }
+    .subtitle{
+        width: 100%;
+    }
+    .about-me-content{
+        margin-top: 5px;
+        margin-left: 0%;
+        text-align: center;
+        padding: 5%;
+    }
+    #my-avatar{
+        max-width: 100%;
+        height: auto;
+        padding: 5%;
+    }
+    .page-wrapper {
+        width: 90%;
+    }
+    
+    .page-section{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
     }
     h2{
         position: relative;
         width: auto;
         float: left;
+        border-right: none;
+        border-bottom: var(--green-color) solid;;
     }
-    .banner{
+    .gallery{
+        display: flex;
+        flex-direction: column;
         width: 100%;
     }
-    nav{
-        width: auto;
+    .gallery-item{
+        width: fit-content;
     }
-    .page-section{
+    #section-4{
         display: flex;
         flex-direction: column;
     }
+    .contact-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    /*
+    h2{
+
+    }
+    
+    nav{
+        width: auto;
+    }
+    
     .left-container{
         width: 300px;
         border-right: none;
         border-bottom: var(--green-color) solid;
         margin-top: 30px;
     }
-    nav ul{
-        display: none;
-    }
+    
     .subtitle{
         width: 600px;
         text-align: center;
@@ -211,26 +255,8 @@ h2{
         margin-left: 70px;
 
     }
-    #my-avatar{
-        max-width: 100%;
-        height: auto;
-    }
-    .gallery{
-        display: flex;
-        flex-direction: column;
-        width: 600px;
-    }
-    .gallery-item{
-        width: auto;
-        padding: auto;
-    }
-    #section-4{
-        display: flex;
-        flex-direction: column;
-    }
-    .contact-links{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
+    
+    
+    
+     */
 }

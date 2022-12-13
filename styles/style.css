@@ -211,29 +211,12 @@ h2 {
         width: 100%;
     }
 
-    .subtitle {
-        width: 100%;
-    }
-
-    .page-section #about {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .about-me-content {
-        margin-top: 5px;
-        margin-left: 0%;
-        text-align: center;
-        padding: 5%;
-    }
-
-    #my-avatar {
-        width: auto;
-        height: auto;
-    }
-
     .page-wrapper {
         width: 90%;
+    }
+
+    .subtitle {
+        width: 100%;
     }
 
     .page-section {
@@ -251,6 +234,23 @@ h2 {
         position: relative;
         width: auto;
         float: left;
+    }
+
+    .page-section #about {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-me-content {
+        margin-top: 5px;
+        margin-left: 0%;
+        text-align: center;
+        padding: 5%;
+    }
+
+    #my-avatar {
+        width: auto;
+        height: auto;
     }
 
     .gallery {

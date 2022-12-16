@@ -13,7 +13,7 @@ visitors more ease in finding the content they are wishing to see.
 
 ## Usage
 
-To use this webpage visit this link: https://clagul01.github.io/module-two-challenge/
+To use this webpage visit this link: https://clagul01.github.io/personal-portfolio-page/
 
 Try clicking these links in the navbar to see how the smooth scroll works and be taken to the corresponding section:
 <img width="311" alt="Screenshot 2022-12-09 at 00 03 41" src="https://user-images.githubusercontent.com/86370272/206592208-615a1a18-42b2-4a71-84cc-57022dbdcf35.png">
